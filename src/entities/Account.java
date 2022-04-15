@@ -36,7 +36,7 @@ public class Account {
 		}
 	}
 	
-	public void withdrw (double amount) {		// saque
+	public void withdraw (double amount) {		// saque
 		if (amount> balance) {
 		throw new IllegalArgumentException();
 		}
